@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp de controle de vagas de estacionamento condominial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-label">
+        <p class="top-label-text">Controle de vagas - Edifício CondoSENAI</p>
+    </header>
+
+    <!-- CONTAINER FORM  -->
+    <div class="main-container">
+        <div class="sub-title">
+            <h1>CADASTRO</h1>
+        </div>
+    
+        <form class="form-main">
+
+            <!-- NOME DO PROPRIETARIO -->
+            <div class="name-form-container">
+                <label for="name" class="forms-label">Nome do Proprietário:</label>
+                <input type="text" id="name" class="forms-input" placeholder="NOME COMPLETO" required>
+            </div>
+           <!-- NUMERO DO APARTAMENTO -->
+            <div class="apt-number-container">
+                <label for="apt-number" class="forms-label">N.º do Apartamento:</label>
+                <input type="text" id="apt-number" class="forms-input" placeholder="APENAS NÚMEROS" required>
+            </div>
+            
+            <!-- BLOCO DE APARTAMENTO -->
+            <div action="" class="form-radio">
+
+                <div id="form-radio-container">
+                    <p class="forms-label">Bloco do Apartamento:</p>
+                    <div class="form-radio-sub-container">
+                        <label for="block-1" class="forms-label">Bloco 1</label>
+                        <input type="radio" class="forms-input-radio" id="block-1" name="blocks" value="bloco-1">
+                    </div>
+
+                    <div class="form-radio-sub-container">
+                        <label for="block-2" class="forms-label">Bloco 2</label>
+                        <input type="radio" class="forms-input-radio" id="block-2" name="blocks" value="bloco-2">
+                    </div>
+                    <div class="form-radio-sub-container">
+                        <label for="block-3" class="forms-label">Bloco 3</label>
+                        <input type="radio" class="forms-input-radio" id="block-3" name="blocks" value="bloco-3">
+                    </div>
+                    <div class="form-radio-sub-container">
+                        <label for="block-4" class="forms-label">Bloco 4</label>
+                        <input type="radio" class="forms-input-radio" id="block-4" name="blocks" value="bloco-4">
+                    </div>
+                    
+
+                </div>
+              
+
+            </div>
+
+            <!-- CADASTRO DO VEÍCULO -->
+            <div class="form-vehicle-model">
+
+                <p class="form-vehicle-title">Cadastro do Veículo:</p>
+                <div class="form-vehicle-model-container">
+                    <label for="brand" class="forms-label">Marca:</label>
+                    <input type="text" id="brand" class="forms-input">
+
+                    <label for="model" class="forms-label">Modelo:</label>
+                    <input type="text" id="model" class="forms-input">
+
+                    <label for="year" class="forms-label">Ano:</label>
+                    <input type="text" id="year" class="forms-input">
+
+                    <label for="color" class="forms-label">Cor:</label>
+                    <input type="text" id="color" class="forms-input">
+
+                    <label for="plate" class="forms-label">Placa:</label>
+                    <input type="text" id="plate" class="forms-input" required>
+                </div>
+            </div>
+            <!-- NUMERO DA VAGA -->
+            <div class="parking-number-container">
+                <label for="parking-number" class="forms-label">N.º da Vaga:</label>
+                <input type="text" id="parking-number" class="forms-input" placeholder="APENAS NÚMEROS" required>
+            </div>
+            
+            <!-- BOTOES -->
+            <div class="buttons-container">
+                <button type="submit" id="button-register">Cadastrar</button>
+                <button class="show-button" id="button-show-data" formnovalidate>Vagas Cadastradas e Disponíveis</button>
+
+            </div>
+            
+
+        </form>
+       
+    </div>
+
+    <!-- CONTAINER SHOW DATA -->
+    <div class="show-data-container ">
+        <!-- CONTAINER REGISTROS -->
+        <div class="parking-spot-registered" id="prk-spot-registered">
+      
+        </div>
+        <!-- CONTAINER VAGAS DISPONIVEIS -->
+        <div class="spots-available-wrap">
+            <div id="available-spots-title">
+            </div>
+            <div class="parking-spot-available" id="prk-spot-available">  
+            </div>
+            
+        </div>
+        
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

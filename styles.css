@@ -1,0 +1,169 @@
+/*reseta as configuracoes do navegador*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E7E8D1;
+  
+}
+
+/* header */
+.top-label{
+    background-color: #A1BE95;
+    margin: 0px;
+    padding: 1%;
+    border-bottom: 3px solid rgb(63, 63, 63);
+}
+.top-label-text{
+    margin: 0px;
+}
+
+/* body */
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 3%;
+}
+
+.sub-title{
+    display: flex;
+    justify-content: center;
+}
+
+/* container principal formulário */
+.form-main{
+    display: flex;
+    flex-direction: column;
+    background-color:#A7BEAE;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 18px 15px 32px -4px rgba(0,0,0,0.75); 
+}
+
+/* container para as opcoes radio bloco  */
+#form-radio-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;  
+}
+
+/* reseta a margem dde todos os labels */
+.forms-label{
+    margin: 0;
+}
+
+/* seta os containers de nome, numero do apto e n da vaga para coluna */
+.name-form-container, 
+.apt-number-container,
+.parking-number-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+/* seta o tamanho da fonte e o espacamento para os subtitulos do form */
+.name-form-container .forms-label,  
+.apt-number-container .forms-label, 
+#form-radio-container p,
+.parking-number-container label{
+    font-size: 1.3em;
+    padding: 0.5% 0;
+}
+
+/* seta o tamanho do input do form numero do apto e numero da vaga */
+.apt-number-container input,
+.parking-number-container input{
+    width: 20%;
+}
+
+/* seta o form cadastro de veiculo de forma horizontal ocupando 100% de sua div */
+.form-vehicle-model{
+    padding: 1%;
+    div{
+        display: flex;;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    label{
+        display: flex;
+        align-items: end;
+    }
+
+}
+
+/* seta o tamanho da fonte e a margin do subtitulo do form cadastro de veiculos */
+.form-vehicle-title{
+    margin: 0;
+    padding: 0.5% 0;
+    font-size: 1.3em;
+}
+
+/* formata os botoes */
+.buttons-container{
+    padding: 1%;
+    button{
+        padding: 1%;
+        font-size: 1.3em;
+        margin-right: 3%;
+        background-color: #A1BE95;
+        border: 2px solid rgb(63, 63, 63);
+        border-radius: 5px;
+    }
+}
+
+
+
+/* ------------------------------------------------------ */
+/* CSS DAS CLASSES CRIADAS COM O BOTAO VAGAS CADASTRADAS E DISPONIVEIS */
+
+/* seta a div dos dados como linha e mantem o espacamento igual para elas */
+.show-data-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    justify-content: space-evenly;
+    .parking-spot-registered{
+        min-width: 50%;
+    }
+    .parking-spot-available{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        padding-left: 3%;
+    }
+}
+
+/* formata o card que exibe os dados cadastrados */
+.data-card-style{ 
+    background-color:#A7BEAE;
+    border-radius: 20px;
+    box-shadow: 18px 15px 32px -4px rgba(0,0,0,0.75);
+    margin: 5%;
+    padding: 2%;
+    p{
+        margin: 0;
+    }
+}
+
+
+/* formata os blocos que exibe as vagas disponíveis */
+.data-dot-style{
+    background-color:#A7BEAE;
+    box-shadow: 0px 0px 31px -13px rgba(0,0,0,0.75);
+    margin: 2%;
+    padding: 2%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+
+   
+}
