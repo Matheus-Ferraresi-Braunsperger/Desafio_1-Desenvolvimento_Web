@@ -5,6 +5,7 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
 ##Como usar
 
 1- Faça o download dos aquivos ou clone o repositório.
+
 2- Abra o "index.html" no seu navegador ao através do live server da sua IDE
 
 ##Observaçoes
@@ -16,7 +17,9 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
    - N.º da Vaga
 
 2- Para exibir os dados de vagas cadastradas e de vagas disponíveis é preciso clicar no button:
+
    - Vagas Cadastradas e Disponíveis
+   - 
     _clicando nesse botão os dados são exibidos/criados no DOM_
 
 ###Recursos utilizados
