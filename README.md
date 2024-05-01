@@ -25,7 +25,7 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
 ###Recursos utilizados
 
 - **HTML:** Estrutura básica da página
-- **CSS>:** Estilização da página
+- **CSS:** Estilização da página
 - **Javascript:** Funcionalidade, interativas e dinâmicas da página
 
 **Desenvolvedor** [Matheus Ferraresi Braunsperger](https://github.com/Matheus-Ferraresi-Braunsperger)
