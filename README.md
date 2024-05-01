@@ -19,7 +19,7 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
 2- Para exibir os dados de vagas cadastradas e de vagas disponíveis é preciso clicar no button:
 
    - Vagas Cadastradas e Disponíveis
-   - 
+ 
     _clicando nesse botão os dados são exibidos/criados no DOM_
 
 ###Recursos utilizados
