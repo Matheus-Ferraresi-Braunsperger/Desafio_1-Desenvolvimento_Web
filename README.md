@@ -20,7 +20,7 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
 
    - Vagas Cadastradas e Disponíveis
  
-    _clicando nesse botão os dados são exibidos/criados no DOM_
+*clicando nesse botão os dados são exibidos/criados no DOM*
 
 ###Recursos utilizados
 
