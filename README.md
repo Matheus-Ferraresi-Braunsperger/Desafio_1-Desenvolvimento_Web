@@ -6,7 +6,7 @@ Um webapp simples feito para a disciplina de Desenvolvimento Web da UNISenai, de
 
 1- Faça o download dos aquivos ou clone o repositório.
 
-2- Abra o "index.html" no seu navegador ao através do live server da sua IDE
+2- Abra o "index.html" no seu navegador ou através do live server da sua IDE
 
 ##Observaçoes
 
